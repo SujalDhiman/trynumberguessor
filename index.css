@@ -1,0 +1,114 @@
+.container
+{
+    margin:auto;
+    width:90vw;
+    height:90vh;
+    font-family: 'MinecraftiaRegular';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header
+{
+    text-align: center;    
+}
+.question
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:40px;
+}
+.underline
+{
+    position:relative;
+    left:-55%;
+    width:43vw;
+    height:2px;
+    border-bottom:5px solid black;
+}
+.underline1
+{
+    position:relative;
+    top:-6px;
+    left:323px;
+    width:43vw;
+    height:2px;
+    border-bottom:5px solid black;
+    z-index:-1;
+}
+.defined
+{
+    font-size: 0px;
+    width:53px;
+    height:50px;
+    border: 5px solid black;
+    text-align: center;
+    position:relative;
+    top:-52px;
+    color:white;
+}
+.box i
+{
+    position:relative;
+    top:-97px;
+    left:26px;
+    transform: scale(3);
+    z-index:10;
+}
+.left
+{
+    width:90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left_area
+{
+    position:relative;
+    left:-8%;
+}
+.middle_area button
+{
+    width:120px;
+    padding: 20px 0px;
+    font-weight: 900;
+    background-color: rgb(94, 85, 85);
+    color: black;
+    border-radius: 5px;
+    position:relative;
+    left:-15px;
+}
+button:hover,.btn:hover
+{
+    color:  rgb(228, 161, 161);
+}
+.right_area
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top:-18px;
+}
+#guess
+{
+    width:50px;
+    height:50px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.right_area button
+{
+    width:100px;
+    padding: 20px 0px;
+    font-weight: 900;
+    background-color: rgb(94, 85, 85);
+    color:  black;
+    border-radius: 5px;
+    position:relative;
+    top:10px;
+}
+
+
